@@ -1,0 +1,201 @@
+[103:139:0103/123006.475157:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[103:130:0103/123006.477504:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123006.477538:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[145:145:0103/123006.498759:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is swiftshader, ANGLE is 
+[103:130:0103/123006.503814:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123006.503872:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123006.540922:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123006.540982:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:224:0103/123006.807401:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[103:224:0103/123006.807461:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[103:224:0103/123006.807528:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[103:224:0103/123006.807543:WARNING:property.cc(144)] DaemonVersion: GetAndBlock: failed.
+[103:224:0103/123006.807589:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[103:224:0103/123006.807635:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[103:164:0103/123009.677347:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[103:164:0103/123009.677376:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[103:164:0103/123009.677385:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[103:164:0103/123009.821139:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+[436:436:0103/123016.082011:WARNING:audio_manager_linux.cc(69)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[436:436:0103/123016.088484:ERROR:alsa_util.cc(204)] PcmOpen: default,No such file or directory
+[436:436:0103/123016.088674:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,No such file or directory
+[103:103:0103/123016.111349:INFO:CONSOLE(126)] "currentLatencynow: 4.155", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:130:0103/123016.572168:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572212:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572229:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572243:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572257:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572273:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572287:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572300:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572312:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572327:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572348:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572361:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572374:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.572386:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.585922:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.585970:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.585988:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.623834:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123016.623897:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:103:0103/123017.111174:INFO:CONSOLE(126)] "currentLatencynow: 4.748", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123018.111054:INFO:CONSOLE(126)] "currentLatencynow: 5.748", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123019.111019:INFO:CONSOLE(126)] "currentLatencynow: 6.379", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123020.111023:INFO:CONSOLE(126)] "currentLatencynow: 6.379", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123021.111005:INFO:CONSOLE(126)] "currentLatencynow: 6.749", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123022.111016:INFO:CONSOLE(126)] "currentLatencynow: 7.749", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123023.111029:INFO:CONSOLE(126)] "currentLatencynow: 8.32", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123024.111113:INFO:CONSOLE(126)] "currentLatencynow: 8.32", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123025.111035:INFO:CONSOLE(126)] "currentLatencynow: 8.427", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123026.111105:INFO:CONSOLE(126)] "currentLatencynow: 8.427", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123027.111120:INFO:CONSOLE(126)] "currentLatencynow: 8.336", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123028.111126:INFO:CONSOLE(126)] "currentLatencynow: 8.236", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123029.111057:INFO:CONSOLE(126)] "currentLatencynow: 8.136", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123030.111037:INFO:CONSOLE(126)] "currentLatencynow: 8.036", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123031.111043:INFO:CONSOLE(126)] "currentLatencynow: 7.936", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123032.111348:INFO:CONSOLE(126)] "currentLatencynow: 7.836", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123033.111094:INFO:CONSOLE(126)] "currentLatencynow: 7.736", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123034.111014:INFO:CONSOLE(126)] "currentLatencynow: 7.646", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123035.111120:INFO:CONSOLE(126)] "currentLatencynow: 7.646", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123036.111110:INFO:CONSOLE(126)] "currentLatencynow: 7.634", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123037.114570:INFO:CONSOLE(126)] "currentLatencynow: 7.534", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123038.111087:INFO:CONSOLE(126)] "currentLatencynow: 7.434", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123039.111084:INFO:CONSOLE(126)] "currentLatencynow: 7.334", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123040.111165:INFO:CONSOLE(126)] "currentLatencynow: 7.234", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123041.113934:INFO:CONSOLE(126)] "currentLatencynow: 7.135", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123042.111073:INFO:CONSOLE(126)] "currentLatencynow: 7.034", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123043.111119:INFO:CONSOLE(126)] "currentLatencynow: 6.934", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123044.111130:INFO:CONSOLE(126)] "currentLatencynow: 6.834", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123045.111306:INFO:CONSOLE(126)] "currentLatencynow: 6.734", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123046.111442:INFO:CONSOLE(126)] "currentLatencynow: 6.635", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123047.111109:INFO:CONSOLE(126)] "currentLatencynow: 6.534", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123048.111404:INFO:CONSOLE(126)] "currentLatencynow: 6.435", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123049.111166:INFO:CONSOLE(126)] "currentLatencynow: 6.334", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123050.111029:INFO:CONSOLE(126)] "currentLatencynow: 6.234", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123051.111032:INFO:CONSOLE(126)] "currentLatencynow: 6.134", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123052.111067:INFO:CONSOLE(126)] "currentLatencynow: 6.034", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123053.111059:INFO:CONSOLE(126)] "currentLatencynow: 5.934", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123054.111019:INFO:CONSOLE(126)] "currentLatencynow: 5.834", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123055.111040:INFO:CONSOLE(126)] "currentLatencynow: 5.734", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123056.111152:INFO:CONSOLE(126)] "currentLatencynow: 5.634", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123057.111059:INFO:CONSOLE(126)] "currentLatencynow: 5.534", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123058.111107:INFO:CONSOLE(126)] "currentLatencynow: 5.434", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123059.111063:INFO:CONSOLE(126)] "currentLatencynow: 5.334", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123100.111029:INFO:CONSOLE(126)] "currentLatencynow: 5.234", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123101.111012:INFO:CONSOLE(126)] "currentLatencynow: 5.134", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123102.111098:INFO:CONSOLE(126)] "currentLatencynow: 5.034", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123103.111072:INFO:CONSOLE(126)] "currentLatencynow: 4.934", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123104.111088:INFO:CONSOLE(126)] "currentLatencynow: 4.92", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123105.111013:INFO:CONSOLE(126)] "currentLatencynow: 4.92", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123106.111003:INFO:CONSOLE(126)] "currentLatencynow: 5.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123107.111060:INFO:CONSOLE(126)] "currentLatencynow: 6.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123108.111113:INFO:CONSOLE(126)] "currentLatencynow: 7.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123109.111111:INFO:CONSOLE(126)] "currentLatencynow: 8.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123110.111061:INFO:CONSOLE(126)] "currentLatencynow: 9.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123111.111055:INFO:CONSOLE(126)] "currentLatencynow: 10.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123112.111025:INFO:CONSOLE(126)] "currentLatencynow: 11.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123113.111049:INFO:CONSOLE(126)] "currentLatencynow: 12.661", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:130:0103/123113.708842:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:130:0103/123113.708891:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[103:103:0103/123114.111059:INFO:CONSOLE(126)] "currentLatencynow: 13.132", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123115.111019:INFO:CONSOLE(126)] "currentLatencynow: 13.032", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123116.112552:INFO:CONSOLE(126)] "currentLatencynow: 13", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123117.110996:INFO:CONSOLE(126)] "currentLatencynow: 13", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123118.111045:INFO:CONSOLE(126)] "currentLatencynow: 13", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123119.111090:INFO:CONSOLE(126)] "currentLatencynow: 12.999", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123120.111104:INFO:CONSOLE(126)] "currentLatencynow: 13.639", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123121.111001:INFO:CONSOLE(126)] "currentLatencynow: 14.639", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123122.111015:INFO:CONSOLE(126)] "currentLatencynow: 14.624", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123123.111114:INFO:CONSOLE(126)] "currentLatencynow: 14.524", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123124.111039:INFO:CONSOLE(126)] "currentLatencynow: 14.424", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123125.111093:INFO:CONSOLE(126)] "currentLatencynow: 14.324", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123126.111101:INFO:CONSOLE(126)] "currentLatencynow: 14.224", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123127.111065:INFO:CONSOLE(126)] "currentLatencynow: 14.124", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123128.111111:INFO:CONSOLE(126)] "currentLatencynow: 14.024", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123129.111056:INFO:CONSOLE(126)] "currentLatencynow: 13.924", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123130.111075:INFO:CONSOLE(126)] "currentLatencynow: 13.824", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123131.111118:INFO:CONSOLE(126)] "currentLatencynow: 13.724", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123132.111271:INFO:CONSOLE(126)] "currentLatencynow: 13.624", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123133.111121:INFO:CONSOLE(126)] "currentLatencynow: 13.524", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123134.111248:INFO:CONSOLE(126)] "currentLatencynow: 13.424", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123135.111136:INFO:CONSOLE(126)] "currentLatencynow: 13.324", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123136.111349:INFO:CONSOLE(126)] "currentLatencynow: 13.256", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123137.111223:INFO:CONSOLE(126)] "currentLatencynow: 13.256", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123138.111020:INFO:CONSOLE(126)] "currentLatencynow: 13.256", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123139.111072:INFO:CONSOLE(126)] "currentLatencynow: 13.224", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123140.111022:INFO:CONSOLE(126)] "currentLatencynow: 13.124", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123141.111039:INFO:CONSOLE(126)] "currentLatencynow: 13.024", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123142.111077:INFO:CONSOLE(126)] "currentLatencynow: 12.925", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123143.111119:INFO:CONSOLE(126)] "currentLatencynow: 12.824", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123144.111122:INFO:CONSOLE(126)] "currentLatencynow: 12.725", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123145.111014:INFO:CONSOLE(126)] "currentLatencynow: 12.624", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123146.111033:INFO:CONSOLE(126)] "currentLatencynow: 12.524", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123147.111132:INFO:CONSOLE(126)] "currentLatencynow: 12.424", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123148.111038:INFO:CONSOLE(126)] "currentLatencynow: 12.324", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123149.111155:INFO:CONSOLE(126)] "currentLatencynow: 12.224", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123150.111045:INFO:CONSOLE(126)] "currentLatencynow: 12.124", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123151.111260:INFO:CONSOLE(126)] "currentLatencynow: 12.025", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123152.111129:INFO:CONSOLE(126)] "currentLatencynow: 11.925", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123153.111051:INFO:CONSOLE(126)] "currentLatencynow: 11.824", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123154.111018:INFO:CONSOLE(126)] "currentLatencynow: 11.725", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123155.111032:INFO:CONSOLE(126)] "currentLatencynow: 11.625", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123156.111026:INFO:CONSOLE(126)] "currentLatencynow: 11.524", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123157.111015:INFO:CONSOLE(126)] "currentLatencynow: 11.425", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123158.111195:INFO:CONSOLE(126)] "currentLatencynow: 11.324", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123159.111037:INFO:CONSOLE(126)] "currentLatencynow: 11.224", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123200.111113:INFO:CONSOLE(126)] "currentLatencynow: 11.125", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123201.111089:INFO:CONSOLE(126)] "currentLatencynow: 11.024", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123202.111101:INFO:CONSOLE(126)] "currentLatencynow: 10.924", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123203.111062:INFO:CONSOLE(126)] "currentLatencynow: 10.824", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123204.111124:INFO:CONSOLE(126)] "currentLatencynow: 10.724", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123205.111055:INFO:CONSOLE(126)] "currentLatencynow: 10.624", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123206.111381:INFO:CONSOLE(126)] "currentLatencynow: 10.525", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123207.111014:INFO:CONSOLE(126)] "currentLatencynow: 10.566", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123208.111040:INFO:CONSOLE(126)] "currentLatencynow: 11.566", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123209.111066:INFO:CONSOLE(126)] "currentLatencynow: 11.652", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123210.111049:INFO:CONSOLE(126)] "currentLatencynow: 11.652", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123211.111012:INFO:CONSOLE(126)] "currentLatencynow: 11.652", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123212.111000:INFO:CONSOLE(126)] "currentLatencynow: 11.652", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123213.111017:INFO:CONSOLE(126)] "currentLatencynow: 11.652", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123214.111044:INFO:CONSOLE(112)] "Begin Player stistics 
+", source: file:///home/seluser/ppt/player/bola1/index.html (112)
+[103:103:0103/123214.111515:INFO:CONSOLE(113)] "["stall",[["8.85","9.36",0.5099999999999998]],[["9.84","10.09",0.25]],[["13.53","13.78",0.25]],[["17.48","17.73",0.25]],[["58.16","58.41",0.25]],[["72.26","72.51",0.25]],[["119.79","120.04",0.25]],[["availibleBW",[null],[2265],[2265],[2265],[2265],[2265],[1585],[1368],[1368],[1251],[974],[2474],[2474],[2664],[3214],[4205],[4979],[5211],[5211],[5448],[5684],[5720],[5720],[5722],[5666],[5666],[6168],[6168],[6168],[5925],[5756],[6146],[5855],[5855],[5616],[4890],[4890],[3660],[3660],[3419],[3184],[3184],[2944],[2738],[2738],[2470],[2470],[2470],[2470],[2470],[2218],[1887],[1887],[1887],[1887],[1887],[1887],[1887],[1653],[1653],[1653],[1653],[1577],[1577],[1515],[977],[1381],[1356],[1566],[1784],[1784],[1784],[1784],[1784],[1647],[1647],[1647],[1565],[2485],[3345],[3345],[5630],[5666],[5656],[5709],[5700],[6761],[6761],[6390],[6390],[6195],[6440],[6440],[6440],[6111],[6111],[6222],[6222],[5886],[5886],[4917],[4196],[2977],[2762],[2762],[2762],[2541],[2541],[2541],[2320],[2320],[2003],[2003],[1355],[1355],[1019],[956],[958]]],[["currentBuffer",[0],[0.06],[0.06],[0],[0],[0],[0.063],[1.756],[0.756],[0],[2.874],[3.849],[2.749],[3.651],[2.551],[1.451],[2.353],[1.186],[0.153],[1.148],[2.149],[3.021],[1.957],[2.859],[3.653],[2.661],[3.563],[2.463],[1.363],[2.265],[1.022],[2.067],[2.969],[1.869],[2.771],[3.64],[2.573],[3.475],[2.375],[3.277],[2.043],[1.077],[1.979],[2.793],[1.781],[2.683],[1.583],[0.483],[0],[0],[0.021],[2.023],[2.023],[2.023],[2.023],[2.023],[2.023],[2.023],[1.759],[0.659],[0],[0],[1.559],[0.606],[0.005],[4.009],[7.009],[8.019],[10.898],[11.859],[10.664],[9.659],[8.559],[7.459],[6.252],[5.259],[4.159],[3.059],[1.959],[0.859],[0],[0.778],[1.778],[2.764],[3.668],[4.57],[7.368],[6.374],[7.276],[6.176],[6.982],[5.978],[4.878],[3.778],[2.678],[1.578],[4.482],[3.381],[4.284],[3.183],[3.98],[4.988],[3.888],[4.722],[3.69],[2.59],[3.492],[2.392],[1.292],[2.194],[0.999],[0],[0],[1.179],[0.179],[0],[0.181],[3.121]]],[["currentLatency",[4.155],[4.748],[5.748],[6.379],[6.379],[6.749],[7.749],[8.32],[8.32],[8.427],[8.427],[8.336],[8.236],[8.136],[8.036],[7.936],[7.836],[7.736],[7.646],[7.646],[7.634],[7.534],[7.434],[7.334],[7.234],[7.135],[7.034],[6.934],[6.834],[6.734],[6.635],[6.534],[6.435],[6.334],[6.234],[6.134],[6.034],[5.934],[5.834],[5.734],[5.634],[5.534],[5.434],[5.334],[5.234],[5.134],[5.034],[4.934],[4.92],[4.92],[5.661],[6.661],[7.661],[8.661],[9.661],[10.661],[11.661],[12.661],[13.132],[13.032],[13],[13],[13],[12.999],[13.639],[14.639],[14.624],[14.524],[14.424],[14.324],[14.224],[14.124],[14.024],[13.924],[13.824],[13.724],[13.624],[13.524],[13.424],[13.324],[13.256],[13.256],[13.256],[13.224],[13.124],[13.024],[12.925],[12.824],[12.725],[12.624],[12.524],[12.424],[12.324],[12.224],[12.124],[12.025],[11.925],[11.824],[11.725],[11.625],[11.524],[11.425],[11.324],[11.224],[11.125],[11.024],[10.924],[10.824],[10.724],[10.624],[10.525],[10.566],[11.566],[11.652],[11.652],[11.652],[11.652],[11.652]]]]", source: file:///home/seluser/ppt/player/bola1/index.html (113)
+[103:103:0103/123214.111604:INFO:CONSOLE(114)] "
+", source: file:///home/seluser/ppt/player/bola1/index.html (114)
+[103:103:0103/123214.112021:INFO:CONSOLE(115)] "Finish Player stistics 
+", source: file:///home/seluser/ppt/player/bola1/index.html (115)
+[103:103:0103/123214.112071:INFO:CONSOLE(126)] "currentLatencynow: 11.599", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123215.110995:INFO:CONSOLE(126)] "currentLatencynow: 11.498", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123216.110998:INFO:CONSOLE(126)] "currentLatencynow: 11.398", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123217.110998:INFO:CONSOLE(126)] "currentLatencynow: 11.298", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123218.111004:INFO:CONSOLE(126)] "currentLatencynow: 11.198", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123219.111054:INFO:CONSOLE(126)] "currentLatencynow: 11.098", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123220.111072:INFO:CONSOLE(126)] "currentLatencynow: 10.998", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123221.111034:INFO:CONSOLE(126)] "currentLatencynow: 10.898", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123222.111004:INFO:CONSOLE(126)] "currentLatencynow: 10.798", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123223.111035:INFO:CONSOLE(126)] "currentLatencynow: 10.698", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123224.110987:INFO:CONSOLE(126)] "currentLatencynow: 10.598", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123225.111144:INFO:CONSOLE(126)] "currentLatencynow: 10.498", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123226.111034:INFO:CONSOLE(126)] "currentLatencynow: 10.398", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123227.111077:INFO:CONSOLE(126)] "currentLatencynow: 10.298", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123228.111068:INFO:CONSOLE(126)] "currentLatencynow: 10.198", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123229.111110:INFO:CONSOLE(126)] "currentLatencynow: 10.098", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123230.111013:INFO:CONSOLE(126)] "currentLatencynow: 9.998", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123231.111104:INFO:CONSOLE(126)] "currentLatencynow: 9.898", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123232.111167:INFO:CONSOLE(126)] "currentLatencynow: 9.798", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123233.111076:INFO:CONSOLE(126)] "currentLatencynow: 9.698", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123234.111080:INFO:CONSOLE(126)] "currentLatencynow: 9.598", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123235.111096:INFO:CONSOLE(126)] "currentLatencynow: 9.498", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123236.111074:INFO:CONSOLE(126)] "currentLatencynow: 9.398", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123237.111108:INFO:CONSOLE(126)] "currentLatencynow: 9.298", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123238.111066:INFO:CONSOLE(126)] "currentLatencynow: 9.198", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123239.111064:INFO:CONSOLE(126)] "currentLatencynow: 9.098", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123240.111242:INFO:CONSOLE(126)] "currentLatencynow: 8.998", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123241.111064:INFO:CONSOLE(126)] "currentLatencynow: 8.898", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123242.110993:INFO:CONSOLE(126)] "currentLatencynow: 8.798", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123243.111067:INFO:CONSOLE(126)] "currentLatencynow: 8.698", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123244.111027:INFO:CONSOLE(126)] "currentLatencynow: 8.598", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123245.111026:INFO:CONSOLE(126)] "currentLatencynow: 8.498", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123246.110996:INFO:CONSOLE(126)] "currentLatencynow: 8.398", source: file:///home/seluser/ppt/player/bola1/index.html (126)
+[103:103:0103/123246.287213:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
