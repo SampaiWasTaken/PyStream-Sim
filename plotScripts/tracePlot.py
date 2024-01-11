@@ -82,24 +82,24 @@ def getVariance(bw, br):
 
 
 # update for Nettrance 1
-net_trace1=getBitrates('netTraces/BelgiumBus.json')[:118]
-pystream1=getData(20, "logs/belgiumBus/load_25_belgiumBus")[:118]
-wonder1=getData(20, "logs/belgiumBus/Cadvise/cadvise_belgiumBus")[:118]
+net_trace1=getBitrates('netTraces/rampUp.json')[:118]
+pystream1=getData(20, "logs/rampUp/Throughput/rampUp_throughput")[:118]
+wonder1=getData(20, "logs/rampUp/Throughput/cadvise_rampUp_throughput")[:118]
 
 #update for Nettrance 2
-net_trace2=getBitrates('netTraces/BelgiumBicycle.json')[:118]
-pystream2=getData(20, "logs/belgiumBicycle/load_25_belgiumBicycle")[:118]
-wonder2=getData(20, "logs/belgiumBicycle/Cadvise/cadvise_belgiumBicycle")[:118]
+net_trace2=getBitrates('netTraces/rampDown.json')[:118]
+pystream2=getData(20, "logs/rampDown/Throughput/rampDown_throughput")[:118]
+wonder2=getData(20, "logs/rampDown/Throughput/cadvise_rampDown_throughput")[:118]
 
 #update for Nettrance 3
 net_trace3=getBitrates('netTraces/cascade.json')[:118]
-pystream3=getData(20, "logs/Cascade/cascade")[:118]
-wonder3=getData(20, "logs/cascade/cadvise/cadvise_cascade")[:118]
+pystream3=getData(20, "logs/Cascade/Throughput/cascade_throughput")[:118]
+wonder3=getData(20, "logs/cascade/Throughput/cadvise_cascade_throughput")[:118]
 
 #update for Nettrance 4
 net_trace4=getBitrates('netTraces/steps.json')[:118]
-pystream4=getData(20, "logs/Steps/steps")[:118]
-wonder4=getData(20, "logs/Steps/Cadvise/cadvise_steps")[:118]
+pystream4=getData(20, "logs/Steps/Throughput/steps_throughput")[:118]
+wonder4=getData(20, "logs/Steps/Throughput/cadvise_steps_throughput")[:118]
 
 # net_trace1=getBitrates('netTraces/stable.json')[:118]
 # pystream1=getData(20, "logs/stable/load_25_stable")[:118]
@@ -123,13 +123,13 @@ fig = plt.figure(figsize=(30, 5))
 ax1 = plt.subplot2grid((6, 100), (0, 0), colspan=20, rowspan=5)
 ax1.set_xlabel('streaming time (s)',fontsize=13)
 ax1.set_ylabel('Bitrate (bps)',fontsize=13)
-ax1.set_title('Net. Trace: Belgium Bus',fontsize=13)
+ax1.set_title('Net. Trace: Ramp Up',fontsize=13)
 ax1.set_ylim([0,10000])
 
 ax2 = plt.subplot2grid((6, 100), (0, 25), colspan=20, rowspan=5)
 ax2.set_xlabel('streaming time (s)',fontsize=13)
 ax2.set_ylabel('Bitrate (bps)',fontsize=13)
-ax2.set_title('Net. Trace: Belgium Bicycle',fontsize=13)
+ax2.set_title('Net. Trace: Ramp Down',fontsize=13)
 ax2.set_ylim([0,10000])
 
 ax3 = plt.subplot2grid((6, 100), (0, 50), colspan=20, rowspan=5)
@@ -188,5 +188,5 @@ ax3.legend(fontsize=13)
 ax4.legend(fontsize=13)
 plt.tight_layout()
 # plt.savefig('nettraces_bus_bicycle_steps_cascade.png')
-plt.savefig('nettraces_stable_ramps.png')
+plt.savefig('Figures/Throughput_ABR_Traces.png')
 plt.show()
