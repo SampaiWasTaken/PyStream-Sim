@@ -7,6 +7,10 @@ sudo docker run --name ns --rm -d sampaiwastaken/athena-networksim:latest $@
 #Create docker network bridge
 sudo docker network create ns_bridge
 sudo docker network connect ns_bridge ns
+
+#perf logging
+sudo bash ./performance_log.sh &
+
 #Copy relevant traces into proxy container
 for ((j=2; j<argc; j++));
 do

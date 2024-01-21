@@ -169,11 +169,11 @@ if __name__ == "__main__":
     data_5 = [data5_5, data10_5, data25_5, data50_5]
 
     # Create a boxplot
-    ax1.boxplot(data_1)
-    ax2.boxplot(data_2)
-    ax3.boxplot(data_3)
-    ax4.boxplot(data_4)
-    ax5.boxplot(data_5)
+    ax1.boxplot(data_1,labels=['5', '10', '25', '50'])
+    ax2.boxplot(data_2,labels=['5', '10', '25', '50'])
+    ax3.boxplot(data_3,labels=['5', '10', '25', '50'])
+    ax4.boxplot(data_4,labels=['5', '10', '25', '50'])
+    ax5.boxplot(data_5,labels=['5', '10', '25', '50'])
 
     # First Set
     er5_1 = [getMeanError(bw5_1, br_1)]
@@ -213,13 +213,13 @@ if __name__ == "__main__":
     var_5 = [er5_5, er10_5, er25_5, er50_5]
 
     # Plotting
-    ax1.plot([1, 2, 3, 4], var_1, ':', color='red', marker='o')
+    ax1.plot([1,2,3,4], var_1, ':', color='red', marker='o')
     ax2.plot([1, 2, 3, 4], var_2, ':', color='red', marker='o')
     ax3.plot([1, 2, 3, 4], var_3, ':', color='red', marker='o')
     ax4.plot([1, 2, 3, 4], var_4, ':', color='red', marker='o')
     ax5.plot([1, 2, 3, 4], var_5, ':', color='red', marker='o')
     
     plt.tight_layout()
-    plt.savefig("loadPlot.png")
+    plt.savefig("Figures/loadPlot.png")
     plt.show()
 

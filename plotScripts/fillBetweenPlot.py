@@ -97,57 +97,79 @@ def getMinMax(bw):
 #Get the data from the log files here
 #Data vetting might be needed in case some stall files are created a few seconds early, leading to shorter data
 
+# # L2A ABR
+
+# # update for Nettrance 1
+# net_trace1=getBitrates('netTraces/rampUp.json')[:118]
+# pystream1=getAvg(20, "logs/rampUp/load_25_rampUp")[:118]
+# wonder1=getAvg(20, "logs/rampUp/Cadvise/cadvise_rampUp")[:118]
+# minTracePy1, maxTracePy1 = getMinMax(getData(20, "logs/rampUp/load_25_rampUp"))
+# minTraceW1, maxTraceW1 = getMinMax(getData(20, "logs/rampUp/Cadvise/cadvise_rampUp"))
+
+# #update for Nettrance 2
+# net_trace2=getBitrates('netTraces/rampDown.json')[:118]
+# pystream2=getAvg(20, "logs/rampDown/load_25_rampDown")[:118]
+# wonder2=getAvg(20, "logs/rampDown/Cadvise/cadvise_rampDown")[:118]
+# minTracePy2, maxTracePy2 = getMinMax(getData(20, "logs/rampDown/load_25_rampDown"))
+# minTraceW2, maxTraceW2 = getMinMax(getData(20, "logs/rampDown/Cadvise/cadvise_rampDown"))
+
+# #update for Nettrance 3
+# net_trace3=getBitrates('netTraces/cascade.json')[:118]
+# pystream3=getAvg(20, "logs/Cascade/load_25_cascade")[:118]
+# wonder3=getAvg(20, "logs/cascade/Cadvise/cadvise_cascade")[:118]
+# minTracePy3, maxTracePy3 = getMinMax(getData(20, "logs/Cascade/load_25_cascade"))
+# minTraceW3, maxTraceW3 = getMinMax(getData(20, "logs/cascade/Cadvise/cadvise_cascade"))
+
+# #update for Nettrance 4
+# net_trace4=getBitrates('netTraces/steps.json')[:118]
+# pystream4=getAvg(20, "logs/Steps/load_25_steps")[:118]
+# wonder4=getAvg(20, "logs/Steps/Cadvise/cadvise_steps")[:118]
+# minTracePy4, maxTracePy4 = getMinMax(getData(20, "logs/Steps/load_25_steps"))
+# minTraceW4, maxTraceW4 = getMinMax(getData(20, "logs/Steps/Cadvise/cadvise_steps"))
+
+# #update for Nettrance 5
+# net_trace5=getBitrates('netTraces/stable.json')[:118]
+# pystream5=getAvg(20, "logs/stable/load_25_stable")[:118]
+# wonder5=getAvg(20, "logs/stable/Cadvise/cadvise_stable")[:118]
+# minTracePy5, maxTracePy5 = getMinMax(getData(20, "logs/stable/load_25_stable"))
+# minTraceW5, maxTraceW5 = getMinMax(getData(20, "logs/stable/Cadvise/cadvise_stable"))
+
+# # Throughput ABR
 
 # update for Nettrance 1
 net_trace1=getBitrates('netTraces/rampUp.json')[:118]
-pystream1=getAvg(20, "logs/rampUp/load_25_rampUp")[:118]
-wonder1=getAvg(20, "logs/rampUp/Cadvise/cadvise_rampUp")[:118]
-minTracePy1, maxTracePy1 = getMinMax(getData(20, "logs/rampUp/load_25_rampUp"))
-minTraceW1, maxTraceW1 = getMinMax(getData(20, "logs/rampUp/Cadvise/cadvise_rampUp"))
+pystream1=getAvg(20, "logs/rampUp/Throughput/rampUp_throughput")[:118]
+wonder1=getAvg(20, "logs/rampUp/Throughput/cadvise_rampUp_throughput")[:118]
+minTracePy1, maxTracePy1 = getMinMax(getData(20, "logs/rampUp/Throughput/rampUp_throughput"))
+minTraceW1, maxTraceW1 = getMinMax(getData(20, "logs/rampUp/Throughput/cadvise_rampUp_throughput"))
 
 #update for Nettrance 2
 net_trace2=getBitrates('netTraces/rampDown.json')[:118]
-pystream2=getAvg(20, "logs/rampDown/load_25_rampDown")[:118]
-wonder2=getAvg(20, "logs/rampDown/Cadvise/cadvise_rampDown")[:118]
-minTracePy2, maxTracePy2 = getMinMax(getData(20, "logs/rampDown/load_25_rampDown"))
-minTraceW2, maxTraceW2 = getMinMax(getData(20, "logs/rampDown/Cadvise/cadvise_rampDown"))
+pystream2=getAvg(20, "logs/rampDown/Throughput/rampDown_throughput")[:118]
+wonder2=getAvg(20, "logs/rampDown/Throughput/cadvise_rampDown_throughput")[:118]
+minTracePy2, maxTracePy2 = getMinMax(getData(20, "logs/rampDown/Throughput/rampDown_throughput"))
+minTraceW2, maxTraceW2 = getMinMax(getData(20, "logs/rampDown/Throughput/cadvise_rampDown_throughput"))
 
 #update for Nettrance 3
 net_trace3=getBitrates('netTraces/cascade.json')[:118]
-pystream3=getAvg(20, "logs/Cascade/load_25_cascade")[:118]
-wonder3=getAvg(20, "logs/cascade/Cadvise/cadvise_cascade")[:118]
-minTracePy3, maxTracePy3 = getMinMax(getData(20, "logs/Cascade/load_25_cascade"))
-minTraceW3, maxTraceW3 = getMinMax(getData(20, "logs/cascade/Cadvise/cadvise_cascade"))
+pystream3=getAvg(20, "logs/Cascade/Throughput/cascade_throughput")[:118]
+wonder3=getAvg(20, "logs/cascade/Throughput/cadvise_cascade_throughput")[:118]
+minTracePy3, maxTracePy3 = getMinMax(getData(20, "logs/Cascade/Throughput/cascade_throughput"))
+minTraceW3, maxTraceW3 = getMinMax(getData(20, "logs/cascade/Throughput/cadvise_cascade_throughput"))
 
 #update for Nettrance 4
 net_trace4=getBitrates('netTraces/steps.json')[:118]
-pystream4=getAvg(20, "logs/Steps/load_25_steps")[:118]
-wonder4=getAvg(20, "logs/Steps/Cadvise/cadvise_steps")[:118]
-minTracePy4, maxTracePy4 = getMinMax(getData(20, "logs/Steps/load_25_steps"))
-minTraceW4, maxTraceW4 = getMinMax(getData(20, "logs/Steps/Cadvise/cadvise_steps"))
+pystream4=getAvg(20, "logs/Steps/Throughput/steps_throughput")[:118]
+wonder4=getAvg(20, "logs/Steps/Throughput/cadvise_steps_throughput")[:118]
+minTracePy4, maxTracePy4 = getMinMax(getData(20, "logs/Steps/Throughput/steps_throughput"))
+minTraceW4, maxTraceW4 = getMinMax(getData(20, "logs/Steps/Throughput/cadvise_steps_throughput"))
 
 #update for Nettrance 5
 net_trace5=getBitrates('netTraces/stable.json')[:118]
-pystream5=getAvg(20, "logs/stable/load_25_stable")[:118]
-wonder5=getAvg(20, "logs/stable/Cadvise/cadvise_stable")[:118]
-minTracePy5, maxTracePy5 = getMinMax(getData(20, "logs/stable/load_25_stable"))
-minTraceW5, maxTraceW5 = getMinMax(getData(20, "logs/stable/Cadvise/cadvise_stable"))
-
-
-# #update for Nettrance 5
-# net_trace4=getBitrates('netTraces/steps.json')[:118]
-# pystream4=getData(20, "logs/Steps/Throughput/steps_throughput")[:118]
-# wonder4=getData(20, "logs/Steps/Throughput/cadvise_steps_throughput")[:118]
-
-# #update for Nettrance 2
-# net_trace2=getBitrates('netTraces/rampUp.json')[:118]
-# pystream2=getData(20, "logs/rampUp/load_25_rampUp")[:118]
-# wonder2=getData(20, "logs/rampUp/Cadvise/cadvise_rampUp")[:118]
-
-# #update for Nettrance 3
-# net_trace3=getBitrates('netTraces/rampDown.json')[:118]
-# pystream3=getData(20, "logs/rampDown/load_25_rampDown")[:118]
-# wonder3=getData(20, "logs/rampDown/Cadvise/cadvise_rampDown")[:118]
+pystream5=getAvg(20, "logs/stable/Throughput/stable_throughput")[:118]
+wonder5=getAvg(20, "logs/stable/Throughput/cadvise_stable_throughput")[:118]
+minTracePy5, maxTracePy5 = getMinMax(getData(20, "logs/stable/Throughput/stable_throughput"))
+minTraceW5, maxTraceW5 = getMinMax(getData(20, "logs/stable/Throughput/cadvise_stable_throughput"))
 
 #######################################################################################################################
 
@@ -185,25 +207,6 @@ ax5.set_xlabel('streaming time (s)',fontsize=13)
 ax5.set_ylabel('Bitrate (bps)',fontsize=13)
 ax5.set_title('Net. Trace: Stable',fontsize=13)
 ax5.set_ylim([0,10000])
-
-# fig = plt.figure(figsize=(30, 5))
-# ax1 = plt.subplot2grid((6, 100), (0, 0), colspan=20, rowspan=5)
-# ax1.set_xlabel('streaming time (s)',fontsize=13)
-# ax1.set_ylabel('Bitrate (bps)',fontsize=13)
-# ax1.set_title('Net. Trace: Stable',fontsize=13)
-# ax1.set_ylim([0,10000])
-
-# ax2 = plt.subplot2grid((6, 100), (0, 25), colspan=20, rowspan=5)
-# ax2.set_xlabel('streaming time (s)',fontsize=13)
-# ax2.set_ylabel('Bitrate (bps)',fontsize=13)
-# ax2.set_title('Net. Trace: RampUp',fontsize=13)
-# ax2.set_ylim([0,10000])
-
-# ax3 = plt.subplot2grid((6, 100), (0, 50), colspan=20, rowspan=5)
-# ax3.set_xlabel('streaming time (s)',fontsize=13)
-# ax3.set_ylabel('Bitrate (bps)',fontsize=13)
-# ax3.set_title('Net. Trace: RampDown',fontsize=13)
-# ax3.set_ylim([0,10000])
 
 
 ax1.plot([i for i in range(len(net_trace1))],net_trace1,label='Original Net. Trace',color='tab:green')
@@ -250,6 +253,6 @@ handles, labels = ax1.get_legend_handles_labels()
 plt.legend(handles, labels, bbox_to_anchor=(0,-0.2), ncol=3, fontsize=13)
 # plt.savefig('nettraces_bus_bicycle_steps_cascade.png')
 plt.tight_layout()
-plt.savefig('Figures/fillBtwn.png')
+plt.savefig('Figures/fillBtwn_throughput.png')
 
 plt.show()
