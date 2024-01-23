@@ -213,7 +213,7 @@ if __name__ == "__main__":
     var_5 = [er5_5, er10_5, er25_5, er50_5]
 
     # Plotting
-    ax1.plot([1,2,3,4], var_1, ':', color='red', marker='o')
+    ax1.plot([1, 2, 3, 4], var_1, ':', color='red', marker='o')
     ax2.plot([1, 2, 3, 4], var_2, ':', color='red', marker='o')
     ax3.plot([1, 2, 3, 4], var_3, ':', color='red', marker='o')
     ax4.plot([1, 2, 3, 4], var_4, ':', color='red', marker='o')

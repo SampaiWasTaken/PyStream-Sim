@@ -57,7 +57,8 @@ def getData(numClients):
                                     ns_MEM.append(mem_usage)
                                 else:
                                     mem.append(mem_usage)
-    return sum(cpu)/len(cpu), sum(mem)/len(mem), sum(ns_CPU)/len(ns_CPU), sum(ns_MEM)/len(ns_MEM)
+    # return sum(cpu)/len(cpu), sum(mem)/len(mem), sum(ns_CPU)/len(ns_CPU), sum(ns_MEM)/len(ns_MEM)
+    return cpu, mem, ns_CPU, ns_MEM
 
 # Plotting
 cpu5, mem5, ns_cpu5, ns_mem5 = getData(5)
@@ -65,60 +66,34 @@ cpu10, mem10, ns_cpu10, ns_mem10 = getData(10)
 cpu25, mem25, ns_cpu25, ns_mem25 = getData(25)
 cpu50, mem50, ns_cpu50, ns_mem50 = getData(50)
 
+
 fig = plt.figure(figsize=(30, 5))
-ax1 = plt.subplot2grid((6, 100), (0, 0), colspan=100, rowspan=6)
+ax1 = plt.subplot2grid((6, 100), (0, 0), colspan=20, rowspan=5)
 ax1.set_ylabel('',fontsize=13)
-ax1.set_xlabel('Resource Usage of Clients with different Number of Clients',fontsize=13)
-ax2 = ax1.twinx()
+ax1.set_ylabel('CPU Usage of Clients [%]',fontsize=13)
+ax1.set_xlabel('Number of Concurrent Clients',fontsize=13)
+# ax1.set_title('Ramp Up',fontsize=15)
 
-ax1.tick_params(axis='y', labelcolor='tab:blue')
-ax2.tick_params(axis='y', labelcolor='tab:red')
+ax2 = plt.subplot2grid((6, 100), (0, 25), colspan=20, rowspan=5)
+ax2.set_ylabel('RAM Usage of Clients [MiB]',fontsize=13)
+ax2.set_xlabel('Number of Concurrent Clients',fontsize=13)
+# ax2.set_title('Ramp Down',fontsize=15)
 
+ax3 = plt.subplot2grid((6, 100), (0, 50), colspan=20, rowspan=5)
+ax3.set_ylabel('CPU Usage of Controller [%]',fontsize=13)
+ax3.set_xlabel('Number of Concurrent Clients',fontsize=13)
+# ax3.set_title('Cascade',fontsize=15)
 
-ax1.bar([1],[cpu5],color=['tab:blue'], label=['Avg. CPU Usage [%]'])
-ax2.bar([2],[mem5],color=['tab:red'], label=['Avg. Memory Usage [MiB]'])
+ax4 = plt.subplot2grid((6, 100), (0, 75), colspan=20, rowspan=5)
+ax4.set_ylabel('RAM Usage of Controller [MiB]',fontsize=13)
+ax4.set_xlabel('Number of Concurrent Clients',fontsize=13)
+# ax4.set_title('Steps',fontsize=15)
 
-ax1.bar([4],[cpu10],color=['tab:blue'])
-ax2.bar([5],[mem10],color=['tab:red'])
+bplot1 = ax1.boxplot([cpu5, cpu10, cpu25, cpu50], labels=[5, 10, 25, 50])
+bplot2 = ax2.boxplot([mem5, mem10, mem25, mem50], labels=[5, 10, 25, 50])
+bplot3 = ax3.boxplot([ns_cpu5, ns_cpu10,ns_cpu25, ns_cpu50], labels=[5, 10, 25, 50])
+bplot4 = ax4.boxplot([ns_mem5, ns_mem10,ns_mem25, ns_mem50], labels=[5, 10, 25, 50])
 
-ax1.bar([7],[cpu25],color=['tab:blue'])
-ax2.bar([8],[mem25],color=['tab:red'])
-
-ax1.bar([10],[cpu50],color=['tab:blue'])
-ax2.bar([11],[mem50],color=['tab:red'])
-
-
-ax1.legend(fontsize=13, loc='upper left')
-ax2.legend(fontsize=13)
-ax1.set_xticks([1.5,4.5,7.5,10.5],['5','10','25', '50'])
+# ax1.set_xticks([1.5,4.5,7.5,10.5],['5','10','25', '50'])
 plt.savefig('ResourceClient.png')
-plt.show()
-
-fig = plt.figure(figsize=(30, 5))
-ax1 = plt.subplot2grid((6, 100), (0, 0), colspan=100, rowspan=6)
-ax1.set_ylabel('',fontsize=13)
-ax1.set_xlabel('Resource Usage of Controller with different Number of Clients',fontsize=13)
-ax2 = ax1.twinx()
-
-ax1.tick_params(axis='y', labelcolor='tab:blue')
-ax2.tick_params(axis='y', labelcolor='tab:red')
-
-
-ax1.bar([1],[ns_cpu5],color=['tab:blue'], label=['Avg. CPU Usage [%]'])
-ax2.bar([2],[ns_mem5],color=['tab:red'], label=['Avg. Memory Usage [MiB]'])
-
-ax1.bar([4],[ns_cpu10],color=['tab:blue'])
-ax2.bar([5],[ns_mem10],color=['tab:red'])
-
-ax1.bar([7],[ns_cpu25],color=['tab:blue'])
-ax2.bar([8],[ns_mem25],color=['tab:red'])
-
-ax1.bar([10],[ns_cpu50],color=['tab:blue'])
-ax2.bar([11],[ns_mem50],color=['tab:red'])
-
-
-ax1.legend(fontsize=13, loc='upper left')
-ax2.legend(fontsize=13, loc='upper right')
-ax1.set_xticks([1.5,4.5,7.5,10.5],['5','10','25', '50'])
-plt.savefig('ResourceController.png')
 plt.show()

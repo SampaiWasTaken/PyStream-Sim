@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo docker stats --no-stream --all --format "table {{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}"  > "PerformanceLogs.txt"
+sleep 1
 while true
 do
 #outputs the docker stats with a different format in a file 
