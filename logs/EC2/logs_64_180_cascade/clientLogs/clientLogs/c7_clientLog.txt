@@ -1,0 +1,16 @@
+"GET /cmaf/live-ull/2006350/akambr/out.mpd?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_5.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18613.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_5-18613.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18614.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18614.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18615.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18615.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18616.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18616.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18617.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25,22.27,22.52,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18617.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25,22.27,22.52,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25,22.27,22.52,0.25,30.67,30.92,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall,1.98,5.50,3.52,6.74,6.99,0.25,10.98,11.23,0.25,22.27,22.52,0.25,30.67,30.92,0.25 HTTP/1.1" 200 -

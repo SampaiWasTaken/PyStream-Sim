@@ -1,0 +1,131 @@
+[230:294:0130/112114.579165:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[230:257:0130/112114.581278:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112114.581471:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112114.595210:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112114.597190:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[300:300:0130/112114.599020:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is swiftshader, ANGLE is 
+[230:257:0130/112114.625929:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112114.625990:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:396:0130/112114.687905:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[230:396:0130/112114.687971:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[230:396:0130/112114.688024:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[230:396:0130/112114.688042:WARNING:property.cc(144)] DaemonVersion: GetAndBlock: failed.
+[230:396:0130/112114.688072:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[230:396:0130/112114.688112:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[230:230:0130/112116.021501:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:252:0130/112116.840770:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[230:252:0130/112116.840820:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[230:252:0130/112116.840833:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[230:230:0130/112117.021281:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:252:0130/112117.050727:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+[230:230:0130/112118.021150:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112119.021224:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112120.021267:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112121.021101:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112122.021045:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112123.021073:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112124.021336:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112125.021167:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112126.021233:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[653:653:0130/112126.788460:WARNING:audio_manager_linux.cc(69)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[653:653:0130/112126.794521:ERROR:alsa_util.cc(204)] PcmOpen: default,No such file or directory
+[653:653:0130/112126.794790:ERROR:alsa_util.cc(204)] PcmOpen: plug:default,No such file or directory
+[230:230:0130/112127.021415:INFO:CONSOLE(128)] "currentLatencynow: 11.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112128.021179:INFO:CONSOLE(128)] "currentLatencynow: 12.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112129.021322:INFO:CONSOLE(128)] "currentLatencynow: 13.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112130.021158:INFO:CONSOLE(128)] "currentLatencynow: 14.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112131.021284:INFO:CONSOLE(128)] "currentLatencynow: 15.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112132.021279:INFO:CONSOLE(128)] "currentLatencynow: 16.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112133.021289:INFO:CONSOLE(128)] "currentLatencynow: 17.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112134.021191:INFO:CONSOLE(128)] "currentLatencynow: 18.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112135.021144:INFO:CONSOLE(128)] "currentLatencynow: 19.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112136.021165:INFO:CONSOLE(128)] "currentLatencynow: 20.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112137.021137:INFO:CONSOLE(128)] "currentLatencynow: 21.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112138.021148:INFO:CONSOLE(128)] "currentLatencynow: 22.089", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:257:0130/112138.789511:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789592:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789611:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789624:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789647:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789660:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789681:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789691:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789713:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789730:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789741:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789762:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789773:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.789792:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.795037:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.795084:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.795126:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.855610:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:257:0130/112138.855660:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[230:230:0130/112139.021236:INFO:CONSOLE(128)] "currentLatencynow: 22.889", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112140.021109:INFO:CONSOLE(128)] "currentLatencynow: 22.789", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112141.021473:INFO:CONSOLE(128)] "currentLatencynow: 23.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112142.021109:INFO:CONSOLE(128)] "currentLatencynow: 24.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112143.021022:INFO:CONSOLE(128)] "currentLatencynow: 25.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112144.021080:INFO:CONSOLE(128)] "currentLatencynow: 26.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112145.021134:INFO:CONSOLE(128)] "currentLatencynow: 27.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112146.021150:INFO:CONSOLE(128)] "currentLatencynow: 28.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112147.021097:INFO:CONSOLE(128)] "currentLatencynow: 29.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112148.021084:INFO:CONSOLE(128)] "currentLatencynow: 30.126", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112149.021083:INFO:CONSOLE(128)] "currentLatencynow: 30.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112150.021043:INFO:CONSOLE(128)] "currentLatencynow: 31.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112151.021070:INFO:CONSOLE(128)] "currentLatencynow: 32.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112152.021042:INFO:CONSOLE(128)] "currentLatencynow: 33.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112153.021052:INFO:CONSOLE(128)] "currentLatencynow: 34.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112154.021052:INFO:CONSOLE(128)] "currentLatencynow: 35.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112155.021069:INFO:CONSOLE(128)] "currentLatencynow: 36.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112156.021101:INFO:CONSOLE(128)] "currentLatencynow: 37.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112157.021178:INFO:CONSOLE(128)] "currentLatencynow: 38.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112158.021118:INFO:CONSOLE(128)] "currentLatencynow: 39.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112159.021046:INFO:CONSOLE(128)] "currentLatencynow: 40.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112200.021104:INFO:CONSOLE(128)] "currentLatencynow: 41.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112201.021128:INFO:CONSOLE(128)] "currentLatencynow: 42.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112202.021004:INFO:CONSOLE(128)] "currentLatencynow: 43.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112203.021122:INFO:CONSOLE(128)] "currentLatencynow: 44.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112204.021147:INFO:CONSOLE(128)] "currentLatencynow: 45.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112205.021232:INFO:CONSOLE(128)] "currentLatencynow: 46.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112206.021244:INFO:CONSOLE(128)] "currentLatencynow: 47.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112207.021308:INFO:CONSOLE(128)] "currentLatencynow: 48.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112208.021309:INFO:CONSOLE(128)] "currentLatencynow: 49.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112209.021103:INFO:CONSOLE(128)] "currentLatencynow: 50.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112210.021091:INFO:CONSOLE(128)] "currentLatencynow: 51.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112211.021232:INFO:CONSOLE(128)] "currentLatencynow: 52.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112212.020989:INFO:CONSOLE(128)] "currentLatencynow: 53.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112213.021000:INFO:CONSOLE(128)] "currentLatencynow: 54.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112214.021205:INFO:CONSOLE(128)] "currentLatencynow: 55.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112215.021049:INFO:CONSOLE(128)] "currentLatencynow: 56.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112216.021058:INFO:CONSOLE(128)] "currentLatencynow: 57.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112217.021183:INFO:CONSOLE(128)] "currentLatencynow: 58.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112218.021108:INFO:CONSOLE(128)] "currentLatencynow: 59.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112219.021173:INFO:CONSOLE(128)] "currentLatencynow: 60.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112220.021161:INFO:CONSOLE(128)] "currentLatencynow: 61.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112221.021056:INFO:CONSOLE(128)] "currentLatencynow: 62.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112222.021161:INFO:CONSOLE(128)] "currentLatencynow: 63.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112223.021027:INFO:CONSOLE(128)] "currentLatencynow: 64.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112224.021050:INFO:CONSOLE(128)] "currentLatencynow: 65.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112225.021290:INFO:CONSOLE(128)] "currentLatencynow: 66.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112226.021182:INFO:CONSOLE(128)] "currentLatencynow: 67.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112227.021195:INFO:CONSOLE(128)] "currentLatencynow: 68.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112228.021288:INFO:CONSOLE(128)] "currentLatencynow: 69.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112229.021246:INFO:CONSOLE(128)] "currentLatencynow: 70.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112230.021158:INFO:CONSOLE(128)] "currentLatencynow: 71.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112231.021088:INFO:CONSOLE(128)] "currentLatencynow: 72.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112232.021274:INFO:CONSOLE(128)] "currentLatencynow: 73.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112233.021247:INFO:CONSOLE(128)] "currentLatencynow: 74.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112234.021074:INFO:CONSOLE(128)] "currentLatencynow: 75.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112235.021089:INFO:CONSOLE(128)] "currentLatencynow: 76.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112236.021055:INFO:CONSOLE(128)] "currentLatencynow: 77.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112237.021241:INFO:CONSOLE(128)] "currentLatencynow: 78.779", source: file:///home/seluser/ppt/player/dashjs/inde[230:230:0130/112407.021232:INFO:CONSOLE(128)] "currentLatencynow: 168.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112408.021316:INFO:CONSOLE(128)] "currentLatencynow: 169.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112409.021017:INFO:CONSOLE(128)] "currentLatencynow: 170.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112410.021189:INFO:CONSOLE(128)] "currentLatencynow: 171.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112411.021278:INFO:CONSOLE(128)] "currentLatencynow: 172.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112412.021231:INFO:CONSOLE(128)] "currentLatencynow: 173.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112413.021325:INFO:CONSOLE(128)] "currentLatencynow: 174.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112414.021191:INFO:CONSOLE(128)] "currentLatencynow: 175.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112415.021227:INFO:CONSOLE(128)] "currentLatencynow: 176.779", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[230:230:0130/112415.205805:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

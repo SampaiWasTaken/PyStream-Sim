@@ -1,0 +1,1 @@
+[230:230:0130/112720.678036:ERROR:chrome_browser_main.cc(1282)] Failed to create a ProcessSingleton for your profile directory. This means that running multiple instances would start multiple browser processes rather than opening a new window in the existing process. Aborting now to avoid profile corruption.

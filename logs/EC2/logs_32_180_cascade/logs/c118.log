@@ -1,0 +1,88 @@
+[229:250:0130/105939.363353:ERROR:file_path_watcher_linux.cc(326)] inotify_init() failed: Too many open files (24)
+[229:292:0130/105939.574662:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:255:0130/105939.576836:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:255:0130/105939.576872:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:255:0130/105939.589923:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:255:0130/105939.589975:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[298:298:0130/105939.594660:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is swiftshader, ANGLE is 
+[299:332:0130/105939.618037:ERROR:file_path_watcher_linux.cc(326)] inotify_init() failed: Too many open files (24)
+[229:255:0130/105939.623836:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:255:0130/105939.623898:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:392:0130/105939.718522:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:392:0130/105939.718609:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:392:0130/105939.718687:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:392:0130/105939.718712:WARNING:property.cc(144)] DaemonVersion: GetAndBlock: failed.
+[229:392:0130/105939.718804:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:392:0130/105939.718863:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:229:0130/105941.069409:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:249:0130/105941.876819:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[229:249:0130/105941.876859:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[229:249:0130/105941.876868:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[229:229:0130/105942.069061:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:249:0130/105942.079469:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+[229:229:0130/105943.068941:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105944.069081:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105945.069018:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105946.068996:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105947.069037:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105948.068995:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105949.069044:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[345:423:0130/105949.798738:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_F[229:252:0130/105949.904363:ERROR:database.cc(1761)] History SQLite error: code 13 errno 0: database or disk is full sql: COMMIT
+[229:229:0130/105950.069023:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105951.069008:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105952.068931:INFO:CONSOLE(128)] "currentLatencynow: NaN", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105953.069060:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105954.069208:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105955.068963:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105956.069047:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105957.069029:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105958.068959:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/105959.068976:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110000.069376:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110001.069059:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110002.069106:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110003.069091:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110004.069065:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110005.069072:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110006.069158:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110007.069066:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110008.069031:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110009.069039:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[299:415:0130/110009.960290:ERROR:database.cc(1761)] ReportingAndNEL SQLite error: code 13 errno 0: database or disk is full sql: INSERT INTO nel_policies (nik, origin_scheme, origin_host, origin_port, received_ip_address, group_name, expires_us_since_epoch, success_fraction, failure_fraction, is_include_subdomains, last_access_us_since_epoch) VALUES (?,?,?,?,?,?,?,?,?,?,?)
+[299:415:0130/110009.962062:ERROR:database.cc(1761)] ReportingAndNEL SQLite error: code 13 errno 0: database or disk is full sql: INSERT INTO reporting_endpoints (nik, origin_scheme, origin_host, origin_port, group_name, url, priority, weight) VALUES (?,?,?,?,?,?,?,?)
+[299:415:0130/110009.963654:ERROR:database.cc(1761)] ReportingAndNEL SQLite error: code 13 errno 0: database or disk is full sql: INSERT INTO reporting_endpoint_groups (nik, origin_scheme, origin_host, origin_port, group_name, is_include_subdomains, expires_us_since_epoch, last_access_us_since_epoch) VALUES (?,?,?,?,?,?,?,?)
+[299:415:0130/110009.963710:ERROR:database.cc(1761)] ReportingAndNEL SQLite error: code 1 errno 0: cannot commit - no transaction is active sql: COMMIT
+[229:229:0130/110010.069088:INFO:CONSOLE(128)] "currentLatencynow: 0", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[[229:229:0130/110210.068924:INFO:CONSOLE(128)] "currentLatencynow: 139.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110211.069126:INFO:CONSOLE(128)] "currentLatencynow: 140.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110212.069118:INFO:CONSOLE(128)] "currentLatencynow: 141.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110213.068926:INFO:CONSOLE(128)] "currentLatencynow: 142.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110214.069156:INFO:CONSOLE(128)] "currentLatencynow: 143.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110215.069109:INFO:CONSOLE(128)] "currentLatencynow: 144.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110216.069082:INFO:CONSOLE(128)] "currentLatencynow: 145.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110217.069145:INFO:CONSOLE(128)] "currentLatencynow: 146.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110218.068933:INFO:CONSOLE(128)] "currentLatencynow: 147.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110219.069000:INFO:CONSOLE(128)] "currentLatencynow: 148.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110220.069036:INFO:CONSOLE(128)] "currentLatencynow: 149.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110221.069142:INFO:CONSOLE(128)] "currentLatencynow: 150.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110222.069126:INFO:CONSOLE(128)] "currentLatencynow: 151.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110223.069071:INFO:CONSOLE(128)] "currentLatencynow: 152.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110224.069035:INFO:CONSOLE(128)] "currentLatencynow: 153.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110225.069029:INFO:CONSOLE(128)] "currentLatencynow: 154.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110226.069083:INFO:CONSOLE(128)] "currentLatencynow: 155.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110227.069071:INFO:CONSOLE(128)] "currentLatencynow: 156.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110228.068982:INFO:CONSOLE(128)] "currentLatencynow: 157.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110229.069071:INFO:CONSOLE(128)] "currentLatencynow: 158.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110230.069110:INFO:CONSOLE(128)] "currentLatencynow: 159.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110231.068894:INFO:CONSOLE(128)] "currentLatencynow: 160.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110232.068948:INFO:CONSOLE(128)] "currentLatencynow: 161.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110233.069026:INFO:CONSOLE(128)] "currentLatencynow: 162.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110234.069190:INFO:CONSOLE(128)] "currentLatencynow: 163.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110235.069121:INFO:CONSOLE(128)] "currentLatencynow: 164.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110236.069039:INFO:CONSOLE(128)] "currentLatencynow: 165.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110237.069064:INFO:CONSOLE(128)] "currentLatencynow: 166.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110238.068976:INFO:CONSOLE(128)] "currentLatencynow: 167.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110239.069122:INFO:CONSOLE(128)] "currentLatencynow: 168.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:229:0130/110240.068981:INFO:CONSOLE(128)] "currentLatencynow: 169.102", source: file:///home/seluser/ppt/player/dashjs/index.html (128)
+[229:656:0130/110240.137578:ERROR:database.cc(1761)] History SQLite error: code 1 errno 0: cannot commit - no transaction is active sql: COMMIT
+[229:229:0130/110240.153568:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

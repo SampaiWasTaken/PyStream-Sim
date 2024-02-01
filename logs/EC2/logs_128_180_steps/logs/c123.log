@@ -1,0 +1,86 @@
+[229:249:0130/131231.261234:ERROR:file_path_watcher_linux.cc(326)] inotify_init() failed: Too many open files (24)
+[229:291:0130/131231.480904:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:254:0130/131231.481749:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:254:0130/131231.481789:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:254:0130/131231.504603:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:254:0130/131231.504686:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:250:0130/131231.505663:ERROR:database.cc(1761)] History SQLite error: code 13 errno 0: database or disk is full sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[229:249:0130/131231.507554:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Code Cache/wasm
+[229:251:0130/131231.507594:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Code Cache/js
+[229:249:0130/131231.507696:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Code Cache/wasm
+[229:249:0130/131231.507711:ERROR:simple_backend_impl.cc(758)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/seluser/Default/Code Cache/wasm
+[229:251:0130/131231.507810:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Code Cache/js
+[229:251:0130/131231.507842:ERROR:simple_backend_impl.cc(758)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/seluser/Default/Code Cache/js
+[229:254:0130/131231.509259:ERROR:database.cc(1761)] Web SQLite error: code 13 errno 0: database or disk is full sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[299:299:0130/131231.511771:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is swiftshader, ANGLE is 
+[229:315:0130/131231.528860:ERROR:devtools_http_handler.cc(292)] Error writing DevTools active port to file
+[229:254:0130/131231.531940:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:254:0130/131231.532012:ERROR:bus.cc(392)] Failed to connect to the bus: Address does not contain a colon
+[229:250:0130/131231.535274:ERROR:component_installer.cc(307)] Could not create the base directory for Federated Learning of Cohorts (/home/seluser/Floc).: No such file or directory (2)
+[229:318:0130/131231.535477:ERROR:component_installer.cc(307)] Could not create the base directory for Widevine Content Decryption Module (/home/seluser/WidevineCdm).: No such file or directory (2)
+[229:325:0130/131231.535529:ERROR:component_installer.cc(307)] Could not create the base directory for pnacl (/home/seluser/pnacl).: No such file or directory (2)
+[229:327:0130/131231.535646:ERROR:component_installer.cc(307)] Could not create the base directory for Subresource Filter Rules (/home/seluser/Subresource Filter/Unindexed Rules).: No such file or directory (2)
+[229:333:0130/131231.535696:ERROR:component_installer.cc(307)] Could not create the base directory for Safety Tips (/home/seluser/SafetyTips).: No such file or directory (2)
+[229:329:0130/131231.536986:ERROR:component_installer.cc(307)] Could not create the base directory for Optimization Hints (/home/seluser/OptimizationHints).: No such file or directory (2)
+[229:328:0130/131231.537090:ERROR:component_installer.cc(307)] Could not create the base directory for Desktop Sharing Hub (/home/seluser/DesktopSharingHub).: No such file or directory (2)
+[229:322:0130/131231.537175:ERROR:component_installer.cc(307)] Could not create the base directory for Origin Trials (/home/seluser/OriginTrials).: No such file or directory (2)
+[229:324:0130/131231.537258:ERROR:component_installer.cc(307)] Could not create the base directory for File Type Policies (/home/seluser/FileTypePolicies).: No such file or directory (2)
+[229:332:0130/131231.537339:ERRO[229:293:0130/131231.544152:ERROR:login_database.cc(723)] Unable to create the meta table.
+[229:252:0130/131231.550251:ERROR:disk_cache.cc(184)] Unable to create cache
+[229:326:0130/131231.551158:ERROR:database.cc(1761)] TopSites SQLite error: code 13 errno 0: database or disk is full sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[229:252:0130/131231.551595:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[229:252:0130/131231.551792:ERROR:disk_cache.cc(184)] Unable to create cache
+[229:293:0130/131231.551893:ERROR:password_store_impl.cc(470)] Could not create/open login database.
+[229:252:0130/131231.553352:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[229:321:0130/131231.554874:ERROR:database.cc(1761)] Passwords SQLite error: code 13 errno 0: database or disk is full sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[229:321:0130/131231.556796:ERROR:login_database.cc(723)] Unable to create the meta table.
+[300:340:0130/131231.555058:ERROR:file_path_watcher_linux.cc(326)] inotify_init() failed: Too many open files (24)
+[229:252:0130/131231.558145:ERROR:disk_cache.cc(184)] Unable to create cache
+[229:252:0130/131231.558708:ERROR:shader_disk_cache.cc(606)] Shader Cache Creation failed: -2
+[229:321:0130/131231.560700:ERROR:password_store_impl.cc(470)] Could not create/open login database.
+[229:326:0130/131231.565081:ERROR:top_sites_backend.cc(80)] Failed to initialize database.
+[229:326:0130/131231.638618:WARNING:widevine_cdm_component_installer.cc(266)] Failed to update Widevine CDM hint path.: No such file or directory (2)
+[229:400:0130/131231.654950:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:400:0130/131231.655048:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:400:0130/131231.655114:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:400:0130/131231.655133:WARNING:property.cc(144)] DaemonVersion: GetAndBlock: failed.
+[229:400:0130/131231.655177:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:400:0130/131231.655221:ERROR:bus.cc(392)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[229:326:0130/131231.659185:ERROR:simple_index_file.cc(294)] Could not create a directory to hold the index file
+[229:326:0130/131231.659411:ERROR:simple_index_file.cc(294)] Could not create a directory to hold the index file
+[300:341:0130/131231.666236:ERROR:database.cc(1761)] Cookie SQLite error: code 13 errno 0: database or disk is full sql: COMMIT
+[300:340:0130/131231.679218:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Cache
+[300:340:0130/131231.679435:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Cache
+[300:340:0130/131231.679459:ERROR:simple_backend_impl.cc(758)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/seluser/Default/Cache
+[300:340:0130/131231.679629:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Cache
+[300:340:0130/131231.679749:ERROR:simple_backend_impl.cc(81)] Failed to create directory: /home/seluser/Default/Cache
+[300:340:0130/131231.679765:ERROR:simple_backend_impl.cc(758)] Simple Cache Backend: wrong file structure on disk: 1 path: /home/seluser/Default/Cache
+[300:339:0130/131231.679805:ERROR:disk_cache.cc(184)] Unable to create cache
+[300:341:0130/131231.696405:ERROR:database.cc(1761)] Cookie SQLite error: code 13 errno 0: database or disk is full sql: COMMIT
+[229:326:0130/131231.696655:ERROR:nss_util.cc(55)] Failed to create /home/seluser/.pki/nssdb directory.
+[300:341:0130/131231.752433:ERROR:database.cc(1761)] ReportingAndNEL SQLite error: co[229:317:0130/131234.593194:ERROR:database.cc(1761)] Shortcuts SQLite error: code 13 errno 0: database or disk is full sql: CREATE TABLE meta(key LONGVARCHAR NOT NULL UNIQUE PRIMARY KEY, value LONGVARCHAR)
+[229:317:0130/131234.596220:ERROR:database.cc(1761)] Shortcuts SQLite error: code 1 errno 0: no such table: omni_box_shortcuts sql: SELECT id, text, fill_into_edit, url, document_type, contents, contents_class, description, description_class, transition, type, keyword, last_access_time, number_of_hits FROM omni_box_shortcuts
+[229:334:0130/131234.621477:ERROR:chrome_browser_main_extra_parts_metrics.cc(228)] crbug.com/1216328: Checking Bluetooth availability started. Please report if there is no report that this ends.
+[229:334:0130/131234.621655:ERROR:chrome_browser_main_extra_parts_metrics.cc(231)] crbug.com/1216328: Checking Bluetooth availability ended.
+[229:334:0130/131234.621679:ERROR:chrome_browser_main_extra_parts_metrics.cc(234)] crbug.com/1216328: Checking default browser status started. Please report if there is no report that this ends.
+[229:317:0130/131234.962900:WARNING:leveldb_database.cc(123)] Unable to open /home/seluser/Default/shared_proto_db/metadata: IO error: /home/seluser/Default/shared_proto_db/metadata/000001.dbtmp: FILE_ERROR_NO_SPACE (ChromeMethodBFE: 3::WritableFileAppend::8)
+[229:334:0130/131235.070010:ERROR:chrome_browser_main_extra_parts_metrics.cc(238)] crbug.com/1216328: Checking default browser status ended.
+[343:622:0130/131239.694831:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:416:0130/131239.694794:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:645:0130/131239.695090:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:621:0130/131239.695120:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:358:0130/131239.695028:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:619:0130/131239.695248:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:353:0130/131239.695150:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:364:0130/131239.695272:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[343:644:0130/131239.695226:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:631:0130/131239.776736:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:428:0130/131239.776761:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:359:0130/131239.776799:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:641:0130/131239.776969:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:625:0130/131239.777012:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:635:0130/131239.776882:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:362:0130/131239.777183:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[347:355:0130/131239.777134:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[350:652:0130/131239.967576:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED
+[350:367:0130/131239.967630:ERROR:disk_data_allocator.cc(175)] DISK: Cannot write to disk. written = -1 FILE_ERROR_FAILED

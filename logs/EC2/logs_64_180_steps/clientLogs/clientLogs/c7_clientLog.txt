@@ -1,0 +1,16 @@
+"GET /cmaf/live-ull/2006350/akambr/out.mpd?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_5.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20637.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_5-20637.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20638.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20639.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20638.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20639.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20640.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20640.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20641.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25,27.25,27.50,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20641.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25,27.25,27.50,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25,27.25,27.50,0.25,33.61,33.86,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall,2.52,7.28,4.76,8.63,8.87,0.23999999999999844,11.95,12.20,0.25,27.25,27.50,0.25,33.61,33.86,0.25 HTTP/1.1" 200 -

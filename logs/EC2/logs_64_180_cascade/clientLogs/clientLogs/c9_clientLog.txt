@@ -1,0 +1,16 @@
+"GET /cmaf/live-ull/2006350/akambr/out.mpd?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_5.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18613.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_5-18613.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18614.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18615.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18614.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18615.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18616.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18616.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-18617.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25,25.00,25.25,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-18617.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25,25.00,25.25,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25,25.00,25.25,0.25,31.80,32.05,0.24999999999999645 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall,2.61,5.42,2.81,6.16,6.41,0.25,10.45,10.70,0.25,25.00,25.25,0.25,31.80,32.05,0.24999999999999645 HTTP/1.1" 200 -

@@ -1,0 +1,16 @@
+"GET /cmaf/live-ull/2006350/akambr/out.mpd?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_5.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_5-16421.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-16421.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-16422.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-16422.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-16423.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-16423.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-16424.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-16424.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-16425.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25,19.51,19.76,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-16425.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25,19.51,19.76,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25,19.51,19.76,0.25,28.45,28.70,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall,2.47,5.14,2.6699999999999995,6.35,6.60,0.25,10.51,10.76,0.25,19.51,19.76,0.25,28.45,28.70,0.25 HTTP/1.1" 200 -

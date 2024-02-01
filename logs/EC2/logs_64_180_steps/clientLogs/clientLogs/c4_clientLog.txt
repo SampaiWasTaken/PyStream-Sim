@@ -1,0 +1,16 @@
+"GET /cmaf/live-ull/2006350/akambr/out.mpd?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_5.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20636.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_5-20636.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20637.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20637.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20638.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20638.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20639.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20639.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_6-20640.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844,21.18,21.43,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/chunk-stream_7-20640.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844,21.18,21.43,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_6.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844,21.18,21.43,0.25,28.93,29.18,0.25 HTTP/1.1" 200 -
+"GET /cmaf/live-ull/2006350/akambr/1706576401/init-stream_7.m4s?stall=stall,1.62,4.82,3.2,5.31,5.56,0.25,8.71,8.95,0.23999999999999844,21.18,21.43,0.25,28.93,29.18,0.25 HTTP/1.1" 200 -
