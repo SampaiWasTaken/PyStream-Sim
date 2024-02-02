@@ -155,4 +155,6 @@ ax2.legend([bplot3, bplot4], ['Clients', 'Controller'])
 
 plt.savefig('Figures/ResourcePlot_new.png')
 
+
+
 plt.show()

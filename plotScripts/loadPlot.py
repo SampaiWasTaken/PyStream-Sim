@@ -174,35 +174,35 @@ if __name__ == "__main__":
 
 
     fig = plt.figure(figsize=(30, 5))
-    ax1 = plt.subplot2grid((6, 125), (0, 0), colspan=20, rowspan=5)
+    ax1 = plt.subplot2grid((6, 125), (0, 100), colspan=20, rowspan=5)
     plt.yscale('log')
-    ax1.set_ylabel('Deviation from Real Bitrate (kbps)',fontsize=13)
-    ax1.set_xlabel('Number of Concurrent Clients',fontsize=13)
-    ax1.set_title('Ramp Up',fontsize=15)
+    ax1.set_ylabel('Deviation from Real Bitrate (log. kbps)',fontsize=13)
+    ax1.set_xlabel('Number of Concurrent Players',fontsize=13)
+    ax1.set_title('Net. Trace: Ramp Up',fontsize=13)
 
     ax2 = plt.subplot2grid((6, 125), (0, 25), colspan=20, rowspan=5)
     plt.yscale('log')
-    ax2.set_ylabel('Deviation from Real Bitrate (kbps)',fontsize=13)
-    ax2.set_xlabel('Number of Concurrent Clients',fontsize=13)
-    ax2.set_title('Ramp Down',fontsize=15)
+    ax2.set_ylabel('Deviation from Real Bitrate (log. kbps)',fontsize=13)
+    ax2.set_xlabel('Number of Concurrent Players',fontsize=13)
+    ax2.set_title('Net. Trace: Ramp Down',fontsize=13)
 
     ax3 = plt.subplot2grid((6, 125), (0, 50), colspan=20, rowspan=5)
     plt.yscale('log')
-    ax3.set_ylabel('Deviation from Real Bitrate (kbps)',fontsize=13)
-    ax3.set_xlabel('Number of Concurrent Clients',fontsize=13)
-    ax3.set_title('Cascade',fontsize=15)
+    ax3.set_ylabel('Deviation from Real Bitrate (log. kbps)',fontsize=13)
+    ax3.set_xlabel('Number of Concurrent Players',fontsize=13)
+    ax3.set_title('Net. Trace: Cascade',fontsize=13)
 
     ax4 = plt.subplot2grid((6, 125), (0, 75), colspan=20, rowspan=5)
     plt.yscale('log')
-    ax4.set_ylabel('Deviation from Real Bitrate (kbps)',fontsize=13)
-    ax4.set_xlabel('Number of Concurrent Clients',fontsize=13)
-    ax4.set_title('Steps',fontsize=15)
+    ax4.set_ylabel('Deviation from Real Bitrate (log. kbps)',fontsize=13)
+    ax4.set_xlabel('Number of Concurrent Players',fontsize=13)
+    ax4.set_title('Net. Trace: Steps',fontsize=13)
 
-    ax5 = plt.subplot2grid((6, 125), (0, 100), colspan=20, rowspan=5)
+    ax5 = plt.subplot2grid((6, 125), (0, 0), colspan=20, rowspan=5)
     plt.yscale('log')
-    ax5.set_ylabel('Deviation from Real Bitrate (kbps)',fontsize=13)
-    ax5.set_xlabel('Number of Concurrent Clients',fontsize=13)
-    ax5.set_title('Stable',fontsize=15)
+    ax5.set_ylabel('Deviation from Real Bitrate (log. kbps)',fontsize=13)
+    ax5.set_xlabel('Number of Concurrent Players',fontsize=13)
+    ax5.set_title('Net. Trace: Stable',fontsize=13)
 
     
     data_1 = [data5_1, data10_1, data25_1, data50_1, data100_1]
@@ -266,8 +266,9 @@ if __name__ == "__main__":
     ax3.plot([1, 2, 3, 4, 5], var_3, ':', color='red', marker='o')
     ax4.plot([1, 2, 3, 4, 5], var_4, ':', color='red', marker='o')
     ax5.plot([1, 2, 3, 4, 5], var_5, ':', color='red', marker='o')
-    
+    plt.subplots_adjust(left=0.05, bottom=0.030, right=1, top=0.925, wspace=0.2, hspace=0.2)
+
     plt.tight_layout()
-    plt.savefig("Figures/loadPlot.png")
+    plt.savefig("Figures/loadPlot.pdf")
     plt.show()
 

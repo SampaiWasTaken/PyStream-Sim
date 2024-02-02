@@ -99,7 +99,7 @@ def getMinMax(bw):
 
 # # L2A ABR
 
-# # update for Nettrance 1
+# update for Nettrance 1
 # net_trace1=getBitrates('netTraces/rampUp.json')[:118]
 # pystream1=getAvg(20, "logs/rampUp/load_25_rampUp")[:118]
 # wonder1=getAvg(20, "logs/rampUp/Cadvise/cadvise_rampUp")[:118]
@@ -139,37 +139,37 @@ def getMinMax(bw):
 # update for Nettrance 1
 net_trace1=getBitrates('netTraces/rampUp.json')[:118]
 pystream1=getAvg(20, "logs/rampUp/Throughput/rampUp_throughput")[:118]
-wonder1=getAvg(20, "logs/rampUp/Throughput/cadvise_rampUp_throughput")[:118]
+wonder1=getAvg(5, "logs/rampUp")[:118]
 minTracePy1, maxTracePy1 = getMinMax(getData(20, "logs/rampUp/Throughput/rampUp_throughput"))
-minTraceW1, maxTraceW1 = getMinMax(getData(20, "logs/rampUp/Throughput/cadvise_rampUp_throughput"))
+minTraceW1, maxTraceW1 = getMinMax(getData(5, "logs/rampUp"))
 
 #update for Nettrance 2
 net_trace2=getBitrates('netTraces/rampDown.json')[:118]
 pystream2=getAvg(20, "logs/rampDown/Throughput/rampDown_throughput")[:118]
-wonder2=getAvg(20, "logs/rampDown/Throughput/cadvise_rampDown_throughput")[:118]
+wonder2=getAvg(5, "logs/rampDown")[:118]
 minTracePy2, maxTracePy2 = getMinMax(getData(20, "logs/rampDown/Throughput/rampDown_throughput"))
-minTraceW2, maxTraceW2 = getMinMax(getData(20, "logs/rampDown/Throughput/cadvise_rampDown_throughput"))
+minTraceW2, maxTraceW2 = getMinMax(getData(5, "logs/rampDown"))
 
 #update for Nettrance 3
 net_trace3=getBitrates('netTraces/cascade.json')[:118]
 pystream3=getAvg(20, "logs/Cascade/Throughput/cascade_throughput")[:118]
-wonder3=getAvg(20, "logs/cascade/Throughput/cadvise_cascade_throughput")[:118]
+wonder3=getAvg(5, "logs/cascade")[:118]
 minTracePy3, maxTracePy3 = getMinMax(getData(20, "logs/Cascade/Throughput/cascade_throughput"))
-minTraceW3, maxTraceW3 = getMinMax(getData(20, "logs/cascade/Throughput/cadvise_cascade_throughput"))
+minTraceW3, maxTraceW3 = getMinMax(getData(5, "logs/cascade"))
 
 #update for Nettrance 4
 net_trace4=getBitrates('netTraces/steps.json')[:118]
 pystream4=getAvg(20, "logs/Steps/Throughput/steps_throughput")[:118]
-wonder4=getAvg(20, "logs/Steps/Throughput/cadvise_steps_throughput")[:118]
+wonder4=getAvg(5, "logs/steps")[:118]
 minTracePy4, maxTracePy4 = getMinMax(getData(20, "logs/Steps/Throughput/steps_throughput"))
-minTraceW4, maxTraceW4 = getMinMax(getData(20, "logs/Steps/Throughput/cadvise_steps_throughput"))
+minTraceW4, maxTraceW4 = getMinMax(getData(5, "logs/steps"))
 
 #update for Nettrance 5
 net_trace5=getBitrates('netTraces/stable.json')[:118]
 pystream5=getAvg(20, "logs/stable/Throughput/stable_throughput")[:118]
-wonder5=getAvg(20, "logs/stable/Throughput/cadvise_stable_throughput")[:118]
+wonder5=getAvg(5, "logs/stable")[:118]
 minTracePy5, maxTracePy5 = getMinMax(getData(20, "logs/stable/Throughput/stable_throughput"))
-minTraceW5, maxTraceW5 = getMinMax(getData(20, "logs/stable/Throughput/cadvise_stable_throughput"))
+minTraceW5, maxTraceW5 = getMinMax(getData(5, "logs/stable"))
 
 #######################################################################################################################
 
@@ -179,64 +179,64 @@ minTraceW5, maxTraceW5 = getMinMax(getData(20, "logs/stable/Throughput/cadvise_s
 
 fig = plt.figure(figsize=(30, 5))
 ax1 = plt.subplot2grid((6, 125), (0, 0), colspan=20, rowspan=5)
-ax1.set_xlabel('streaming time (s)',fontsize=13)
-ax1.set_ylabel('Bitrate (bps)',fontsize=13)
-ax1.set_title('Net. Trace: Ramp Up',fontsize=13)
+ax1.set_xlabel('Streaming time (s)',fontsize=13)
+ax1.set_ylabel('Bitrate (kbps)',fontsize=13)
+ax1.set_title('Ramp Up',fontsize=13)
 ax1.set_ylim([0,10000])
 
 ax2 = plt.subplot2grid((6, 125), (0, 25), colspan=20, rowspan=5)
-ax2.set_xlabel('streaming time (s)',fontsize=13)
-ax2.set_ylabel('Bitrate (bps)',fontsize=13)
-ax2.set_title('Net. Trace: Ramp Down',fontsize=13)
+ax2.set_xlabel('Streaming time (s)',fontsize=13)
+ax2.set_ylabel('Bitrate (kbps)',fontsize=13)
+ax2.set_title('Ramp Down',fontsize=13)
 ax2.set_ylim([0,10000])
 
 ax3 = plt.subplot2grid((6, 125), (0, 50), colspan=20, rowspan=5)
-ax3.set_xlabel('streaming time (s)',fontsize=13)
-ax3.set_ylabel('Bitrate (bps)',fontsize=13)
-ax3.set_title('Net. Trace: Cascade',fontsize=13)
+ax3.set_xlabel('Streaming time (s)',fontsize=13)
+ax3.set_ylabel('Bitrate (kbps)',fontsize=13)
+ax3.set_title('Cascade',fontsize=13)
 ax3.set_ylim([0,10000])
 
 ax4 = plt.subplot2grid((6, 125), (0, 75), colspan=20, rowspan=5)
-ax4.set_xlabel('streaming time (s)',fontsize=13)
-ax4.set_ylabel('Bitrate (bps)',fontsize=13)
-ax4.set_title('Net. Trace: Steps',fontsize=13)
+ax4.set_xlabel('Streaming time (s)',fontsize=13)
+ax4.set_ylabel('Bitrate (kbps)',fontsize=13)
+ax4.set_title('Steps',fontsize=13)
 ax4.set_ylim([0,10000])
 
 ax5 = plt.subplot2grid((6, 125), (0, 100), colspan=20, rowspan=5)
-ax5.set_xlabel('streaming time (s)',fontsize=13)
-ax5.set_ylabel('Bitrate (bps)',fontsize=13)
-ax5.set_title('Net. Trace: Stable',fontsize=13)
+ax5.set_xlabel('Streaming time (s)',fontsize=13)
+ax5.set_ylabel('Bitrate (kbps)',fontsize=13)
+ax5.set_title('Stable',fontsize=13)
 ax5.set_ylim([0,10000])
 
 
 ax1.plot([i for i in range(len(net_trace1))],net_trace1,label='Original Net. Trace',color='tab:green')
-ax1.plot([i for i in range(len(pystream1))],pystream1,label='PyStreamShaper',color='tab:blue')
-ax1.plot([i for i in range(len(wonder1))],wonder1,label='CAdViSE',color='tab:red')
-ax1.fill_between([i for i in range(len(minTracePy1))],maxTracePy1,minTracePy1,alpha=0.2,color='tab:blue')   
+# ax1.plot([i for i in range(len(pystream1))],pystream1,label='PyStreamShaper',color='tab:blue')
+ax1.plot([i for i in range(len(wonder1))],wonder1,label='TC',color='tab:red')
+# ax1.fill_between([i for i in range(len(minTracePy1))],maxTracePy1,minTracePy1,alpha=0.2,color='tab:blue')   
 ax1.fill_between([i for i in range(len(minTraceW1))],minTraceW1,maxTraceW1,alpha=0.2,color='tab:red')   
 
 ax2.plot([i for i in range(len(net_trace2))],net_trace2,label='Original Net. Trace',color='tab:green')
-ax2.plot([i for i in range(len(pystream2))],pystream2,label='PyStreamShaper',color='tab:blue')
-ax2.plot([i for i in range(len(wonder2))],wonder2,label='CAdViSE',color='tab:red')
-ax2.fill_between([i for i in range(len(minTracePy2))],maxTracePy2,minTracePy2,alpha=0.2,color='tab:blue')   
+# ax2.plot([i for i in range(len(pystream2))],pystream2,label='PyStreamShaper',color='tab:blue')
+ax2.plot([i for i in range(len(wonder2))],wonder2,label='TC',color='tab:red')
+# ax2.fill_between([i for i in range(len(minTracePy2))],maxTracePy2,minTracePy2,alpha=0.2,color='tab:blue')   
 ax2.fill_between([i for i in range(len(minTraceW2))],minTraceW2,maxTraceW2,alpha=0.2,color='tab:red')   
 
 ax3.plot([i for i in range(len(net_trace3))],net_trace3,label='Original Net. Trace',color='tab:green')
-ax3.plot([i for i in range(len(pystream3))],pystream3,label='PyStreamShaper',color='tab:blue')
-ax3.plot([i for i in range(len(wonder3))],wonder3,label='CAdViSE',color='tab:red')
-ax3.fill_between([i for i in range(len(minTracePy3))],maxTracePy3,minTracePy3,alpha=0.2,color='tab:blue')   
+# ax3.plot([i for i in range(len(pystream3))],pystream3,label='PyStreamShaper',color='tab:blue')
+ax3.plot([i for i in range(len(wonder3))],wonder3,label='TC',color='tab:red')
+# ax3.fill_between([i for i in range(len(minTracePy3))],maxTracePy3,minTracePy3,alpha=0.2,color='tab:blue')   
 ax3.fill_between([i for i in range(len(minTraceW3))],minTraceW3,maxTraceW3,alpha=0.2,color='tab:red')   
 
 ax4.plot([i for i in range(len(net_trace4))],net_trace4,label='Original Net. Trace',color='tab:green')
-ax4.plot([i for i in range(len(pystream4))],pystream4,label='PyStreamShaper',color='tab:blue')
-ax4.plot([i for i in range(len(wonder4))],wonder4,label='CAdViSE',color='tab:red')
-ax4.fill_between([i for i in range(len(minTracePy4))],maxTracePy4,minTracePy4,alpha=0.2,color='tab:blue')   
+# ax4.plot([i for i in range(len(pystream4))],pystream4,label='PyStreamShaper',color='tab:blue')
+ax4.plot([i for i in range(len(wonder4))],wonder4,label='TC',color='tab:red')
+# ax4.fill_between([i for i in range(len(minTracePy4))],maxTracePy4,minTracePy4,alpha=0.2,color='tab:blue')   
 ax4.fill_between([i for i in range(len(minTraceW4))],minTraceW4,maxTraceW4,alpha=0.2,color='tab:red')   
 
 ax5.plot([i for i in range(len(net_trace5))],net_trace5,label='Original Net. Trace',color='tab:green')
-ax5.plot([i for i in range(len(pystream5))],pystream5,label='PyStreamShaper',color='tab:blue')
-ax5.plot([i for i in range(len(wonder5))],wonder5,label='CAdViSE',color='tab:red')
-ax5.fill_between([i for i in range(len(minTracePy5))],maxTracePy5,minTracePy5,alpha=0.2,color='tab:blue')   
+# ax5.plot([i for i in range(len(pystream5))],pystream5,label='PyStreamShaper',color='tab:blue')
+ax5.plot([i for i in range(len(wonder5))],wonder5,label='TC',color='tab:red')
+# ax5.fill_between([i for i in range(len(minTracePy5))],maxTracePy5,minTracePy5,alpha=0.2,color='tab:blue')   
 ax5.fill_between([i for i in range(len(minTraceW5))],minTraceW5,maxTraceW5,alpha=0.2,color='tab:red')   
 
 
@@ -249,10 +249,14 @@ ax5.fill_between([i for i in range(len(minTraceW5))],minTraceW5,maxTraceW5,alpha
 # ax5.legend(fontsize=13)
 
 handles, labels = ax1.get_legend_handles_labels()
+plt.subplots_adjust(left=0.05, bottom=0.030, right=1, top=0.925, wspace=0.2, hspace=0.2)
 # ax1.legend(handles, labels, loc="outside center", bbox_to_anchor=(0.5,-0.2), ncol=5, fontsize=13)
-plt.legend(handles, labels, bbox_to_anchor=(0,-0.2), ncol=3, fontsize=13)
+# plt.legend(handles, labels, bbox_to_anchor=(0,-0.2), ncol=3, fontsize=13)
 # plt.savefig('nettraces_bus_bicycle_steps_cascade.png')
 plt.tight_layout()
-plt.savefig('Figures/fillBtwn_throughput.png')
+ax5.legend()
+# plt.savefig('Figures/fillBtwn_throughput.png')
+plt.savefig('Figures/fillBtwn_throughput_TC.pdf')
+
 
 plt.show()
